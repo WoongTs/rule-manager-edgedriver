@@ -10,6 +10,14 @@ The driver is meant for rule templates where users should not have to copy raw `
 - Custom capability definitions and presentations under `driver/capabilities/`
 - Edge profiles for create/delete modes under `driver/profiles/`
 - Lua source for UI handling, candidate indexing, Rule generation, duplicate guards, AEB forwarding, and Rule deletion
+- Public guides under `docs/`
+
+## Guides
+
+- [Usage](docs/usage.md): channel install, AEB/EdgeBridge setup, app workflow, troubleshooting
+- [Architecture](docs/architecture.md): module responsibilities and create/delete data flow
+- [Templates](docs/templates.md): template metadata, UI shapes, Rule factory, duplicate-key rules
+- [Development](docs/development.md): local build, source layout, extension notes
 
 ## Current Templates
 
