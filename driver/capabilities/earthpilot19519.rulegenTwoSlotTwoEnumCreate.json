@@ -1,0 +1,217 @@
+{
+  "id": "rulegenTwoSlotTwoEnumCreate",
+  "version": 1,
+  "status": "proposed",
+  "name": "RuleGen Two Slot Two Enum Create",
+  "ephemeral": false,
+  "attributes": {
+    "slotOneSelection": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "maxLength": 256
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "value"
+        ]
+      },
+      "setter": "setSlotOne",
+      "enumCommands": []
+    },
+    "slotOneOptions": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 256
+            }
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "value"
+        ]
+      },
+      "enumCommands": []
+    },
+    "slotTwoSelection": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "maxLength": 256
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "value"
+        ]
+      },
+      "setter": "setSlotTwo",
+      "enumCommands": []
+    },
+    "slotTwoOptions": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 256
+            }
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "value"
+        ]
+      },
+      "enumCommands": []
+    },
+    "paramOneSelection": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "maxLength": 128
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "value"
+        ]
+      },
+      "setter": "setParamOne",
+      "enumCommands": []
+    },
+    "paramOneOptions": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 128
+            }
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "value"
+        ]
+      },
+      "enumCommands": []
+    },
+    "paramTwoSelection": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "maxLength": 128
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "value"
+        ]
+      },
+      "setter": "setParamTwo",
+      "enumCommands": []
+    },
+    "paramTwoOptions": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 128
+            }
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "value"
+        ]
+      },
+      "enumCommands": []
+    }
+  },
+  "commands": {
+    "setSlotOne": {
+      "name": "setSlotOne",
+      "arguments": [
+        {
+          "name": "selectionKey",
+          "optional": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ],
+      "sensitive": false
+    },
+    "setSlotTwo": {
+      "name": "setSlotTwo",
+      "arguments": [
+        {
+          "name": "selectionKey",
+          "optional": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ],
+      "sensitive": false
+    },
+    "setParamOne": {
+      "name": "setParamOne",
+      "arguments": [
+        {
+          "name": "selectionKey",
+          "optional": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ],
+      "sensitive": false
+    },
+    "setParamTwo": {
+      "name": "setParamTwo",
+      "arguments": [
+        {
+          "name": "selectionKey",
+          "optional": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ],
+      "sensitive": false
+    },
+    "refreshCandidates": {
+      "name": "refreshCandidates",
+      "arguments": [],
+      "sensitive": false
+    },
+    "createRule": {
+      "name": "createRule",
+      "arguments": [],
+      "sensitive": false
+    }
+  }
+}

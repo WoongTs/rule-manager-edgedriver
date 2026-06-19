@@ -1,0 +1,35 @@
+{
+  "id": "rulegenTemplateIntroCard",
+  "version": 1,
+  "status": "proposed",
+  "name": "RuleGen Template Intro Card",
+  "ephemeral": false,
+  "attributes": {
+    "result": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "object",
+            "properties": {
+              "html": {
+                "type": "string",
+                "maxLength": 65535
+              }
+            },
+            "required": [
+              "html"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "value"
+        ]
+      },
+      "enumCommands": []
+    }
+  },
+  "commands": {}
+}

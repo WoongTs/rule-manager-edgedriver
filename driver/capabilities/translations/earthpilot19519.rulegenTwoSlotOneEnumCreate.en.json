@@ -1,0 +1,83 @@
+{
+  "tag": "en",
+  "label": "Create Rule",
+  "attributes": {
+    "slotOneSelection": {
+      "label": "Input A",
+      "displayTemplate": "Input A: {{value}}",
+      "i18n": {
+        "value": {
+          "notSelected": {
+            "label": "Not selected"
+          }
+        }
+      }
+    },
+    "slotOneOptions": {
+      "label": "Input A options"
+    },
+    "slotTwoSelection": {
+      "label": "Input B",
+      "displayTemplate": "Input B: {{value}}",
+      "i18n": {
+        "value": {
+          "notSelected": {
+            "label": "Not selected"
+          }
+        }
+      }
+    },
+    "slotTwoOptions": {
+      "label": "Input B options"
+    },
+    "paramOneSelection": {
+      "label": "Mode",
+      "displayTemplate": "Mode: {{value}}",
+      "i18n": {
+        "value": {
+          "same": {
+            "label": "Same state"
+          },
+          "inverse": {
+            "label": "Inverse state"
+          }
+        }
+      }
+    },
+    "paramOneOptions": {
+      "label": "Mode options"
+    }
+  },
+  "commands": {
+    "setSlotOne": {
+      "label": "Input A",
+      "arguments": {
+        "selectionKey": {
+          "label": "Selection"
+        }
+      }
+    },
+    "setSlotTwo": {
+      "label": "Input B",
+      "arguments": {
+        "selectionKey": {
+          "label": "Selection"
+        }
+      }
+    },
+    "setParamOne": {
+      "label": "Mode",
+      "arguments": {
+        "selectionKey": {
+          "label": "Selection"
+        }
+      }
+    },
+    "refreshCandidates": {
+      "label": "Refresh device list"
+    },
+    "createRule": {
+      "label": "Create Rule"
+    }
+  }
+}

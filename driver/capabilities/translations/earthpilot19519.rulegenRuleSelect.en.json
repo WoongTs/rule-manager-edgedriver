@@ -1,0 +1,36 @@
+{
+  "tag": "en",
+  "label": "Delete Rule",
+  "attributes": {
+    "slotOneSelection": {
+      "label": "Rule",
+      "displayTemplate": "Rule: {{value}}",
+      "i18n": {
+        "value": {
+          "notSelected": {
+            "label": "Not selected"
+          }
+        }
+      }
+    },
+    "slotOneOptions": {
+      "label": "Rule options"
+    }
+  },
+  "commands": {
+    "setSlotOne": {
+      "label": "Rule",
+      "arguments": {
+        "selectionKey": {
+          "label": "Selection"
+        }
+      }
+    },
+    "refreshRules": {
+      "label": "Refresh rule list"
+    },
+    "deleteRule": {
+      "label": "Delete Rule"
+    }
+  }
+}

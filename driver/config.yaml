@@ -1,0 +1,6 @@
+name: Rules Manager [AEB]
+packageKey: aeb-rulegen
+permissions:
+  lan: {}
+  discovery: {}
+description: SmartThings Rules generator and manager using AEB

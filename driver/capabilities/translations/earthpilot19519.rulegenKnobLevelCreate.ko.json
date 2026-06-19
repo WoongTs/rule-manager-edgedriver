@@ -1,0 +1,58 @@
+{
+  "tag": "ko",
+  "label": "Rule 생성",
+  "attributes": {
+    "slotOneSelection": {
+      "label": "Controller",
+      "displayTemplate": "Controller: {{value}}",
+      "i18n": {
+        "value": {
+          "notSelected": {
+            "label": "선택 안 함"
+          }
+        }
+      }
+    },
+    "slotOneOptions": {
+      "label": "Controller options"
+    },
+    "slotTwoSelection": {
+      "label": "Target",
+      "displayTemplate": "Target: {{value}}",
+      "i18n": {
+        "value": {
+          "notSelected": {
+            "label": "선택 안 함"
+          }
+        }
+      }
+    },
+    "slotTwoOptions": {
+      "label": "Target options"
+    }
+  },
+  "commands": {
+    "setSlotOne": {
+      "label": "Controller",
+      "arguments": {
+        "selectionKey": {
+          "label": "선택"
+        }
+      }
+    },
+    "setSlotTwo": {
+      "label": "Target",
+      "arguments": {
+        "selectionKey": {
+          "label": "선택"
+        }
+      }
+    },
+    "refreshCandidates": {
+      "label": "디바이스 목록 새로고침"
+    },
+    "createRule": {
+      "label": "Rule 생성"
+    }
+  }
+}

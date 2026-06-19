@@ -1,0 +1,58 @@
+{
+  "tag": "en",
+  "label": "Create Rule",
+  "attributes": {
+    "slotOneSelection": {
+      "label": "Controller",
+      "displayTemplate": "Controller: {{value}}",
+      "i18n": {
+        "value": {
+          "notSelected": {
+            "label": "Not selected"
+          }
+        }
+      }
+    },
+    "slotOneOptions": {
+      "label": "Controller options"
+    },
+    "slotTwoSelection": {
+      "label": "Target",
+      "displayTemplate": "Target: {{value}}",
+      "i18n": {
+        "value": {
+          "notSelected": {
+            "label": "Not selected"
+          }
+        }
+      }
+    },
+    "slotTwoOptions": {
+      "label": "Target options"
+    }
+  },
+  "commands": {
+    "setSlotOne": {
+      "label": "Controller",
+      "arguments": {
+        "selectionKey": {
+          "label": "Selection"
+        }
+      }
+    },
+    "setSlotTwo": {
+      "label": "Target",
+      "arguments": {
+        "selectionKey": {
+          "label": "Selection"
+        }
+      }
+    },
+    "refreshCandidates": {
+      "label": "Refresh device list"
+    },
+    "createRule": {
+      "label": "Create Rule"
+    }
+  }
+}

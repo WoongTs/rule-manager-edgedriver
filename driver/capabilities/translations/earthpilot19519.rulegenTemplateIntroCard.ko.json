@@ -1,0 +1,11 @@
+{
+  "tag": "ko",
+  "label": "소개",
+  "attributes": {
+    "result": {
+      "label": "소개",
+      "displayTemplate": "{{value.html}}"
+    }
+  },
+  "commands": {}
+}

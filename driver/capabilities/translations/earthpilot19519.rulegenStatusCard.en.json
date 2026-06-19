@@ -1,0 +1,15 @@
+{
+  "tag": "en",
+  "label": "RuleGen Status Card",
+  "attributes": {
+    "statusText": {
+      "label": "Status text",
+      "displayTemplate": "{{value}}"
+    },
+    "status": {
+      "label": "Status",
+      "displayTemplate": "{{value.html}}"
+    }
+  },
+  "commands": {}
+}

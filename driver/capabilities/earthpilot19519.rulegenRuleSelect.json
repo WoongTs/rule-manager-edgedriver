@@ -1,0 +1,70 @@
+{
+  "id": "rulegenRuleSelect",
+  "version": 1,
+  "status": "proposed",
+  "name": "RuleGen Rule Select",
+  "ephemeral": false,
+  "attributes": {
+    "slotOneSelection": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "maxLength": 256
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "value"
+        ]
+      },
+      "setter": "setSlotOne",
+      "enumCommands": []
+    },
+    "slotOneOptions": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 256
+            }
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "value"
+        ]
+      },
+      "enumCommands": []
+    }
+  },
+  "commands": {
+    "setSlotOne": {
+      "name": "setSlotOne",
+      "arguments": [
+        {
+          "name": "selectionKey",
+          "optional": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ],
+      "sensitive": false
+    },
+    "refreshRules": {
+      "name": "refreshRules",
+      "arguments": [],
+      "sensitive": false
+    },
+    "deleteRule": {
+      "name": "deleteRule",
+      "arguments": [],
+      "sensitive": false
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "tag": "ko",
+  "label": "Status",
+  "attributes": {
+    "result": {
+      "label": "Status",
+      "displayTemplate": "{{value.html}}"
+    }
+  },
+  "commands": {}
+}

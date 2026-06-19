@@ -1,0 +1,16 @@
+{
+  "dashboard": {
+    "states": [
+      {
+        "label": "{{statusText.value}}"
+      }
+    ],
+    "actions": [],
+    "panelItems": []
+  },
+  "detailView": [],
+  "automation": {
+    "conditions": [],
+    "actions": []
+  }
+}

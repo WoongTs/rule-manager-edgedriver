@@ -1,0 +1,36 @@
+{
+  "tag": "ko",
+  "label": "Rule 삭제",
+  "attributes": {
+    "slotOneSelection": {
+      "label": "Rule",
+      "displayTemplate": "Rule: {{value}}",
+      "i18n": {
+        "value": {
+          "notSelected": {
+            "label": "선택 안 함"
+          }
+        }
+      }
+    },
+    "slotOneOptions": {
+      "label": "Rule options"
+    }
+  },
+  "commands": {
+    "setSlotOne": {
+      "label": "Rule",
+      "arguments": {
+        "selectionKey": {
+          "label": "선택"
+        }
+      }
+    },
+    "refreshRules": {
+      "label": "Rule 목록 새로고침"
+    },
+    "deleteRule": {
+      "label": "Rule 삭제"
+    }
+  }
+}

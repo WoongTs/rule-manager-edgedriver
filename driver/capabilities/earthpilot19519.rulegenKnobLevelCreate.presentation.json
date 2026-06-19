@@ -1,0 +1,85 @@
+{
+  "dashboard": {
+    "states": [],
+    "actions": [],
+    "panelItems": []
+  },
+  "detailView": [
+    {
+      "label": "{{i18n.commands.setSlotOne.label}}",
+      "displayType": "list",
+      "list": {
+        "command": {
+          "name": "setSlotOne",
+          "alternatives": [
+            {
+              "key": "Not selected",
+              "value": "{{i18n.attributes.slotOneSelection.i18n.value.notSelected.label}}",
+              "type": "inactive"
+            }
+          ],
+          "argumentType": "string",
+          "supportedValues": "slotOneOptions.value"
+        },
+        "state": {
+          "value": "slotOneSelection.value",
+          "valueType": "string",
+          "alternatives": [
+            {
+              "key": "Not selected",
+              "value": "{{i18n.attributes.slotOneSelection.i18n.value.notSelected.label}}",
+              "type": "inactive"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "{{i18n.commands.setSlotTwo.label}}",
+      "displayType": "list",
+      "list": {
+        "command": {
+          "name": "setSlotTwo",
+          "alternatives": [
+            {
+              "key": "Not selected",
+              "value": "{{i18n.attributes.slotTwoSelection.i18n.value.notSelected.label}}",
+              "type": "inactive"
+            }
+          ],
+          "argumentType": "string",
+          "supportedValues": "slotTwoOptions.value"
+        },
+        "state": {
+          "value": "slotTwoSelection.value",
+          "valueType": "string",
+          "alternatives": [
+            {
+              "key": "Not selected",
+              "value": "{{i18n.attributes.slotTwoSelection.i18n.value.notSelected.label}}",
+              "type": "inactive"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "{{i18n.commands.refreshCandidates.label}}",
+      "displayType": "pushButton",
+      "pushButton": {
+        "command": "refreshCandidates"
+      }
+    },
+    {
+      "label": "{{i18n.commands.createRule.label}}",
+      "displayType": "pushButton",
+      "pushButton": {
+        "command": "createRule"
+      }
+    }
+  ],
+  "automation": {
+    "conditions": [],
+    "actions": []
+  }
+}

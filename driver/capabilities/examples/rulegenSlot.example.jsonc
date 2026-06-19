@@ -1,0 +1,32 @@
+{
+  // Example only. This is NOT a deployable capability definition.
+  // Historical single-slot sketch only.
+  // The implemented MVP uses earthpilot19519.rulegenKnobLevelCreate instead.
+  "id": "earthpilot19519.rulegenKnobLevelCreate",
+  "version": 1,
+  "status": "proposed",
+  "name": "RuleGen Slot 1",
+  "attributes": {
+    "selected": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "value": { "type": "string" }
+        },
+        "additionalProperties": false,
+        "required": ["value"]
+      }
+    }
+  },
+  "commands": {
+    "setSelected": {
+      "arguments": [
+        {
+          "name": "value",
+          "schema": { "type": "string" },
+          "optional": false
+        }
+      ]
+    }
+  }
+}

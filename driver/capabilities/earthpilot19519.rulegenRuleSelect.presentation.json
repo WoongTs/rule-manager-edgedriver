@@ -1,0 +1,256 @@
+{
+  "dashboard": {
+    "states": [],
+    "actions": [],
+    "panelItems": []
+  },
+  "detailView": [
+    {
+      "label": "{{i18n.commands.setSlotOne.label}}",
+      "displayType": "list",
+      "list": {
+        "command": {
+          "name": "setSlotOne",
+          "alternatives": [
+            {
+              "key": "Not selected",
+              "value": "{{i18n.attributes.slotOneSelection.i18n.value.notSelected.label}}",
+              "type": "inactive"
+            },
+            {
+              "key": "Rule 1",
+              "value": "Rule 1",
+              "type": "active"
+            },
+            {
+              "key": "Rule 2",
+              "value": "Rule 2",
+              "type": "active"
+            },
+            {
+              "key": "Rule 3",
+              "value": "Rule 3",
+              "type": "active"
+            },
+            {
+              "key": "Rule 4",
+              "value": "Rule 4",
+              "type": "active"
+            },
+            {
+              "key": "Rule 5",
+              "value": "Rule 5",
+              "type": "active"
+            },
+            {
+              "key": "Rule 6",
+              "value": "Rule 6",
+              "type": "active"
+            },
+            {
+              "key": "Rule 7",
+              "value": "Rule 7",
+              "type": "active"
+            },
+            {
+              "key": "Rule 8",
+              "value": "Rule 8",
+              "type": "active"
+            },
+            {
+              "key": "Rule 9",
+              "value": "Rule 9",
+              "type": "active"
+            },
+            {
+              "key": "Rule 10",
+              "value": "Rule 10",
+              "type": "active"
+            },
+            {
+              "key": "Rule 11",
+              "value": "Rule 11",
+              "type": "active"
+            },
+            {
+              "key": "Rule 12",
+              "value": "Rule 12",
+              "type": "active"
+            },
+            {
+              "key": "Rule 13",
+              "value": "Rule 13",
+              "type": "active"
+            },
+            {
+              "key": "Rule 14",
+              "value": "Rule 14",
+              "type": "active"
+            },
+            {
+              "key": "Rule 15",
+              "value": "Rule 15",
+              "type": "active"
+            },
+            {
+              "key": "Rule 16",
+              "value": "Rule 16",
+              "type": "active"
+            },
+            {
+              "key": "Rule 17",
+              "value": "Rule 17",
+              "type": "active"
+            },
+            {
+              "key": "Rule 18",
+              "value": "Rule 18",
+              "type": "active"
+            },
+            {
+              "key": "Rule 19",
+              "value": "Rule 19",
+              "type": "active"
+            },
+            {
+              "key": "Rule 20",
+              "value": "Rule 20",
+              "type": "active"
+            }
+          ],
+          "argumentType": "string",
+          "supportedValues": "slotOneOptions.value"
+        },
+        "state": {
+          "value": "slotOneSelection.value",
+          "valueType": "string",
+          "alternatives": [
+            {
+              "key": "Not selected",
+              "value": "{{i18n.attributes.slotOneSelection.i18n.value.notSelected.label}}",
+              "type": "inactive"
+            },
+            {
+              "key": "Rule 1",
+              "value": "Rule 1",
+              "type": "active"
+            },
+            {
+              "key": "Rule 2",
+              "value": "Rule 2",
+              "type": "active"
+            },
+            {
+              "key": "Rule 3",
+              "value": "Rule 3",
+              "type": "active"
+            },
+            {
+              "key": "Rule 4",
+              "value": "Rule 4",
+              "type": "active"
+            },
+            {
+              "key": "Rule 5",
+              "value": "Rule 5",
+              "type": "active"
+            },
+            {
+              "key": "Rule 6",
+              "value": "Rule 6",
+              "type": "active"
+            },
+            {
+              "key": "Rule 7",
+              "value": "Rule 7",
+              "type": "active"
+            },
+            {
+              "key": "Rule 8",
+              "value": "Rule 8",
+              "type": "active"
+            },
+            {
+              "key": "Rule 9",
+              "value": "Rule 9",
+              "type": "active"
+            },
+            {
+              "key": "Rule 10",
+              "value": "Rule 10",
+              "type": "active"
+            },
+            {
+              "key": "Rule 11",
+              "value": "Rule 11",
+              "type": "active"
+            },
+            {
+              "key": "Rule 12",
+              "value": "Rule 12",
+              "type": "active"
+            },
+            {
+              "key": "Rule 13",
+              "value": "Rule 13",
+              "type": "active"
+            },
+            {
+              "key": "Rule 14",
+              "value": "Rule 14",
+              "type": "active"
+            },
+            {
+              "key": "Rule 15",
+              "value": "Rule 15",
+              "type": "active"
+            },
+            {
+              "key": "Rule 16",
+              "value": "Rule 16",
+              "type": "active"
+            },
+            {
+              "key": "Rule 17",
+              "value": "Rule 17",
+              "type": "active"
+            },
+            {
+              "key": "Rule 18",
+              "value": "Rule 18",
+              "type": "active"
+            },
+            {
+              "key": "Rule 19",
+              "value": "Rule 19",
+              "type": "active"
+            },
+            {
+              "key": "Rule 20",
+              "value": "Rule 20",
+              "type": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "{{i18n.commands.refreshRules.label}}",
+      "displayType": "pushButton",
+      "pushButton": {
+        "command": "refreshRules"
+      }
+    },
+    {
+      "label": "{{i18n.commands.deleteRule.label}}",
+      "displayType": "pushButton",
+      "pushButton": {
+        "command": "deleteRule"
+      }
+    }
+  ],
+  "automation": {
+    "conditions": [],
+    "actions": []
+  }
+}

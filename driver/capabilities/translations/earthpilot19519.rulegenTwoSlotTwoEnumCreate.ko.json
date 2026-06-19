@@ -1,0 +1,108 @@
+{
+  "tag": "ko",
+  "label": "Rule 생성",
+  "attributes": {
+    "slotOneSelection": {
+      "label": "Input A",
+      "displayTemplate": "Input A: {{value}}",
+      "i18n": {
+        "value": {
+          "notSelected": {
+            "label": "선택 안 함"
+          }
+        }
+      }
+    },
+    "slotOneOptions": {
+      "label": "Input A options"
+    },
+    "slotTwoSelection": {
+      "label": "Input B",
+      "displayTemplate": "Input B: {{value}}",
+      "i18n": {
+        "value": {
+          "notSelected": {
+            "label": "선택 안 함"
+          }
+        }
+      }
+    },
+    "slotTwoOptions": {
+      "label": "Input B options"
+    },
+    "paramOneSelection": {
+      "label": "Mode",
+      "displayTemplate": "Mode: {{value}}",
+      "i18n": {
+        "value": {
+          "same": {
+            "label": "같은 상태"
+          },
+          "inverse": {
+            "label": "반대 상태"
+          }
+        }
+      }
+    },
+    "paramOneOptions": {
+      "label": "Mode options"
+    },
+    "paramTwoSelection": {
+      "label": "동기화 지연",
+      "displayTemplate": "동기화 지연: {{value}}",
+      "i18n": {
+        "value": {
+          "immediate": {
+            "label": "즉시"
+          },
+          "delayed": {
+            "label": "지연"
+          }
+        }
+      }
+    },
+    "paramTwoOptions": {
+      "label": "동기화 지연 options"
+    }
+  },
+  "commands": {
+    "setSlotOne": {
+      "label": "Input A",
+      "arguments": {
+        "selectionKey": {
+          "label": "선택"
+        }
+      }
+    },
+    "setSlotTwo": {
+      "label": "Input B",
+      "arguments": {
+        "selectionKey": {
+          "label": "선택"
+        }
+      }
+    },
+    "setParamOne": {
+      "label": "Mode",
+      "arguments": {
+        "selectionKey": {
+          "label": "선택"
+        }
+      }
+    },
+    "setParamTwo": {
+      "label": "동기화 지연",
+      "arguments": {
+        "selectionKey": {
+          "label": "선택"
+        }
+      }
+    },
+    "refreshCandidates": {
+      "label": "디바이스 목록 새로고침"
+    },
+    "createRule": {
+      "label": "Rule 생성"
+    }
+  }
+}

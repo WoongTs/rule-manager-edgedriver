@@ -1,0 +1,11 @@
+{
+  "tag": "en",
+  "label": "Intro",
+  "attributes": {
+    "result": {
+      "label": "Intro",
+      "displayTemplate": "{{value.html}}"
+    }
+  },
+  "commands": {}
+}
