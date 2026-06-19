@@ -33,6 +33,22 @@ Generated Rule names use this format:
 
 This repository does not include PATs, OAuth tokens, account IDs, device IDs, location IDs, hub IDs, channel IDs, or local environment files.
 
+## Install From Channel
+
+You can join the public SmartThings Edge channel here:
+
+```text
+https://bestow-regional.api.smartthings.com/invite/wvjJz49AaNjk
+```
+
+Invite code:
+
+```text
+wvjJz49AaNjk
+```
+
+After accepting the invitation, enroll your hub in the channel and install the Rule Manager driver from the SmartThings channel page. The driver still requires AEB/EdgeBridge on your LAN before Rule list/create/delete actions can work.
+
 ## Build
 
 From the repository root:
